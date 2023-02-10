@@ -45,7 +45,8 @@
    1. Choose the ```Apache Arrow Flight SQL``` driver - your window should look like this:   
    ![Connect to a database window](images/database_selection_window.png?raw=true "Connect to a database window")   
    1. Click the blue "Next >" button on the bottom of the window
-   1. On the next screen, the JDBC URL should be filled out already - just put in the "Username" and "Password" values for your running Flight SQL server.   
+   1. On the next screen, the JDBC URL should be filled out already - just put in the "Username" and "Password" values for your running Flight SQL server.  Your window should look like this:   
+   ![Connect to a database window 2](images/database_settings_window.png?raw=true "Connect to a database window 2")
    1. Click the "Test Connection" button - your window should look like this:   
    ![Test Connection results](images/test_connection_button_results.png?raw=true "Test Connection results")   
    1. Close out the "Connection Test" window with "OK", and then click: "Finish"   
