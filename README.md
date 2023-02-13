@@ -22,7 +22,7 @@
 6. Add the JDBC jar file:  
    1. Click the "Libraries" tab  
    1. Click the: "Add File" button   
-   1. Choose the "flight-sql-jdbc-driver-11.0.0.jar" jar file - and click "Open"   
+   1. Choose the "flight-sql-jdbc-driver-11.0.0.jar" jar file (the file downloaded in step 2 above) - and click "Open"   
    ![Select jar file](images/select_driver_jar_file.png?raw=true "Select jar file")   
    1. Close the Driver editor window with the blue "OK" button on the lower-right   
 
