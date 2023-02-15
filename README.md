@@ -60,13 +60,13 @@
 
 
 10. Run a query:
-   1. Right-click on the Database Connection on the left - choose: "SQL Editor", and then: "Open SQL Console" as shown here:   
-   ![Open SQL Console](images/open_sql_console.png?raw=true "Open SQL Console")   
-   1. In the Console window - run a query - something like: ```SELECT * FROM customer;```   
-   1. Click the triangle button to execute the SQL statement - as shown below (or use keyboard shortcut: Ctrl+Enter):      
-   ![Execute SQL](images/triangle_execute_button.png?raw=true "Execute SQL")   
-   1. You should see the query results as shown in this screenshot:   
-   ![Query Results](images/query_results.png?raw=true "Query Results")   
+    1. Right-click on the Database Connection on the left - choose: "SQL Editor", and then: "Open SQL Console" as shown here:      
+    ![Open SQL Console](images/open_sql_console.png?raw=true "Open SQL Console")   
+    1. In the Console window - run a query - something like: ```SELECT * FROM customer;```   
+    1. Click the triangle button to execute the SQL statement - as shown below (or use keyboard shortcut: Ctrl+Enter):      
+    ![Execute SQL](images/triangle_execute_button.png?raw=true "Execute SQL")   
+    1. You should see the query results as shown in this screenshot:   
+    ![Query Results](images/query_results.png?raw=true "Query Results")   
 
 
 ## Congrats - you are all done!
