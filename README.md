@@ -56,7 +56,11 @@
    ![Connect to a database window 2](images/database_settings_window.png?raw=true "Connect to a database window 2")
    1. Click the "Test Connection" button - your window should look like this:   
    ![Test Connection results](images/test_connection_button_results.png?raw=true "Test Connection results")   
-   1. Close out the "Connection Test" window with "OK", and then click: "Finish"   
+   1. Click the blue "OK" button to close the Connection test window
+   1. Click the "Connection details (name, type, ...)" button on the right
+   1. In the "General" section, enter: `Apache Arrow Flight SQL` for the "Connection name".  It should look like this:
+   ![Name the Database Connection](images/naming_database_connection.png)
+   1. Click the blue "Finish" button to save the connection   
 
 
 10. Run a query:
