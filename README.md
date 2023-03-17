@@ -37,7 +37,7 @@
 8. Enter the driver settings:   
    1. Click the "Settings" tab   
    1. In the "Driver Name" field - enter: ```Apache Arrow Flight SQL```   
-   1. In the "URL Template" field - enter: ```jdbc:arrow-flight-sql://localhost:31337?useEncryption=true&disableCertificateVerification=true```   
+   1. In the "URL Template" field - enter: ```jdbc:arrow-flight-sql://{host}:{port}?useEncryption=true&disableCertificateVerification=true```   
    1. In the "Driver Type" drop-down box - choose: "SQLite"   
    1. Your driver manager "Edit Driver" window should look like this:   
    ![Driver Manager completed](images/driver_manager_completed_window.png?raw=true "Driver Manager completed")   
@@ -52,7 +52,7 @@
    1. Choose the ```Apache Arrow Flight SQL``` driver - your window should look like this:   
    ![Connect to a database window](images/database_selection_window.png?raw=true "Connect to a database window")   
    1. Click the blue "Next >" button on the bottom of the window
-   1. On the next screen, the JDBC URL should be filled out already - just put in the "Username" and "Password" values for your running Flight SQL server.  Your window should look like this:   
+   1. On the next screen, the JDBC URL should be filled out already - just supply the Host (`localhost`), Port (`31337`), Username (`flight_username`), and Password values for your running Flight SQL server.  Your window should look like this:   
    ![Connect to a database window 2](images/database_settings_window.png?raw=true "Connect to a database window 2")
    1. Click the "Test Connection" button - your window should look like this:   
    ![Test Connection results](images/test_connection_button_results.png?raw=true "Test Connection results")   
